@@ -1,0 +1,115 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Index</title>
+
+	<meta name="viewport" content="width=device-width" />
+
+	<style>
+		div {
+			width: 100px;
+			height: 100px;
+			border: 1px solid black;
+			background-color: lightblue;
+
+			transition-delay: 0s;
+			transition-duration: 1s;
+			transition-property: transform;
+			transition-timing-function: linear;
+		}
+
+			div#div1:hover {
+				transform: translate(20px, 0);
+				/*transform: translate(-20px, 0);*/
+			}
+
+			div#div2:hover {
+				transform: translate(0, 30px);
+				/*transform: translate(0, -30px);*/
+			}
+
+			div#div3:hover {
+				transform: translate(20px, 30px);
+				/*transform: translate(-20px, -30px);*/
+			}
+
+			div#div4:hover {
+				transform: rotate(20deg);
+				/*transform: rotate(-20deg);*/
+			}
+
+			div#div5:hover {
+				transform: scaleX(1.2);
+				/*transform: scaleX(0.8);*/
+			}
+
+			div#div6:hover {
+				transform: scaleY(1.2);
+				/*transform: scaleY(0.8);*/
+			}
+
+			div#div7:hover {
+				transform: scale(1.1, 1.1);
+				/*transform: scale(0.8, 1.2);*/
+			}
+
+			div#div8:hover {
+				transform: skewX(20deg);
+				/*transform: skewX(-20deg);*/
+			}
+
+			div#div9:hover {
+				transform: skewY(20deg);
+				/*transform: skewY(-20deg);*/
+			}
+
+			div#div10:hover {
+				transform: skew(20deg, 10deg);
+				/*transform: skew(-20deg, -10deg);*/
+				/*transform: skew(20deg); // transform: skewX(20deg);*/
+			}
+
+			/*Note: matrix(scaleX(),skewY(),skewX(),scaleY(),translateX(),translateY())*/
+
+			div#div11:hover {
+				transform: matrix(1, -0.3, 0, 1, 0, 0);
+				/*transform: matrix(1, 2, -1, 1, 80, 80);*/
+				/*transform: matrix(1, skewY(10deg), skewX(20deg), 1, 0, 0);*/
+				/*transform: rotate(15deg) translateX(230px) scale(1.5, 2.6) skew(220deg, -150deg) translateX(230px)*/
+			}
+	</style>
+</head>
+<body>
+	<hr />
+	<div id="div1">translate x</div>
+	<hr />
+	<div id="div2">translate y</div>
+	<hr />
+	<div id="div3">translate x, y</div>
+	<hr />
+	<div id="div4">rotate</div>
+	<hr />
+	<div id="div5">scaleX</div>
+	<hr />
+	<div id="div6">scaleY</div>
+	<hr />
+	<div id="div7">scale</div>
+	<hr />
+	<div id="div8">skewX</div>
+	<hr />
+	<div id="div9">skewY</div>
+	<hr />
+	<div id="div10">skew</div>
+	<hr />
+	<div id="div11">matrix</div>
+	<hr />
+	References:
+	<br />
+	<a href="https://meyerweb.com/eric/tools/matrix/">https://meyerweb.com/eric/tools/matrix/</a>
+	<br />
+	<a href="http://angrytools.com/css-generator/transform/">http://angrytools.com/css-generator/transform/</a>
+	<br />
+	<a href="https://www.useragentman.com/blog/2011/01/07/css3-matrix-transform-for-the-mathematically-challenged/">https://www.useragentman.com/blog/2011/01/07/css3-matrix-transform-for-the-mathematically-challenged/</a>
+</body>
+</html>
