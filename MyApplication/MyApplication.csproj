@@ -99,6 +99,7 @@
     <Content Include="Content\bootstrap-reboot.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Images\Dog.jpg" />
     <Content Include="Content\Site.css" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\bootstrap.bundle.js" />
@@ -256,6 +257,11 @@
     <Content Include="Views\Home\Learn_1100.cshtml" />
     <Content Include="Views\Home\Learn_1200.cshtml" />
     <Content Include="Views\Home\Learn_1300.cshtml" />
+    <Content Include="Views\Home\Learn_1400.cshtml" />
+    <Content Include="Views\Home\Learn_1500.cshtml" />
+    <Content Include="Views\Home\Learn_1600.cshtml" />
+    <None Include="Views\Home\Learn_1700.cshtml.BAK" />
+    <Content Include="Views\Home\Learn_1800.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

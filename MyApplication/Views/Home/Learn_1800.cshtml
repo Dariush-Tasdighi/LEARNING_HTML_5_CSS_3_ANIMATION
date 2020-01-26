@@ -1,0 +1,203 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Index</title>
+
+	<meta name="viewport" content="width=device-width" />
+
+	<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+
+	<style>
+		.flip-card {
+			position: relative;
+			transition: all 0.8s;
+			transform-style: preserve-3d;
+		}
+
+			.flip-card:hover .flip-card-front {
+				transform: rotateY(180deg);
+			}
+
+			.flip-card:hover .flip-card-back {
+				transform: rotateY(0deg);
+			}
+
+		.flip-card-front {
+			z-index: 2;
+			transition: 1s;
+			position: relative;
+			margin-bottom: 16px;
+			backface-visibility: hidden;
+			transform-style: preserve-3d;
+		}
+
+		.flip-card-back {
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			transition: 1s;
+			position: absolute;
+			transform: rotateY(-180deg);
+			backface-visibility: hidden;
+			transform-style: preserve-3d;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1>
+			Learning Bootstrap 4 Card will be Flipped!
+		</h1>
+
+		<hr />
+
+		<br />
+		<br />
+
+		<div class="row">
+
+			<div class="col-sm-3">
+				<div class="flip-card">
+					<div class="flip-card-front">
+						<div class="card text-center bg-info border-secondary">
+							<div class="card-body">
+								Card Front Content
+							</div>
+						</div>
+					</div>
+					<div class="flip-card-back">
+						<div class="card text-center bg-warning border-secondary">
+							<div class="card-body">
+								Card Back Content
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-sm-3">
+				<div class="flip-card">
+					<div class="flip-card-front">
+						<div class="card text-center bg-info border-secondary">
+							<div class="card-body">
+								Card Front Content
+							</div>
+						</div>
+					</div>
+					<div class="flip-card-back">
+						<div class="card text-center bg-warning border-secondary">
+							<div class="card-body">
+								Card Back Content
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-sm-3">
+				<div class="flip-card">
+					<div class="flip-card-front">
+						<div class="card text-center bg-info border-secondary">
+							<div class="card-body">
+								Card Front Content
+							</div>
+						</div>
+					</div>
+					<div class="flip-card-back">
+						<div class="card text-center bg-warning border-secondary">
+							<div class="card-body">
+								Card Back Content
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-sm-3">
+				<div class="flip-card">
+					<div class="flip-card-front">
+						<div class="card text-center bg-info border-secondary">
+							<div class="card-body">
+								Card Front Content
+							</div>
+						</div>
+					</div>
+					<div class="flip-card-back">
+						<div class="card text-center bg-warning border-secondary">
+							<div class="card-body">
+								Card Back Content
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-sm-3">
+				<div class="flip-card">
+					<div class="flip-card-front">
+						<div class="card text-center bg-info border-secondary">
+							<div class="card-body">
+								Card Front Content
+							</div>
+						</div>
+					</div>
+					<div class="flip-card-back">
+						<div class="card text-center bg-warning border-secondary">
+							<div class="card-body">
+								Card Back Content
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-sm-3">
+				<div class="flip-card">
+					<div class="flip-card-front">
+						<div class="card text-center bg-info border-secondary">
+							<div class="card-body">
+								Card Front Content
+							</div>
+						</div>
+					</div>
+					<div class="flip-card-back">
+						<div class="card text-center bg-warning border-secondary">
+							<div class="card-body">
+								Card Back Content
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-sm-3">
+				<div class="flip-card">
+					<div class="flip-card-front">
+						<div class="card text-center bg-info border-secondary">
+							<div class="card-body">
+								Card Front Content
+							</div>
+						</div>
+					</div>
+					<div class="flip-card-back">
+						<div class="card text-center bg-warning border-secondary">
+							<div class="card-body">
+								Card Back Content
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		<br />
+		<br />
+
+		<hr />
+
+	</div>
+</body>
+</html>

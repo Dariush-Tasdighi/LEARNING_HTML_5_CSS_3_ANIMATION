@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Index</title>
+
+	<meta name="viewport" content="width=device-width" />
+
+	<style>
+		div {
+			width: 100px;
+			height: 100px;
+			border: 1px solid black;
+			background-color: lightblue;
+			transition: all 1s linear 0s;
+		}
+
+			div.clicked {
+				width: 400px;
+			}
+	</style>
+</head>
+<body>
+	<h1>
+		1. Just Click -> Display Animation
+	</h1>
+	<hr />
+	<div id="myDiv"></div>
+
+	<script src="~/Scripts/jquery-3.4.1.min.js"></script>
+
+	<script>
+
+		//$(document).ready(function () {
+
+		//})
+
+		$(function () {
+
+			$('div#myDiv').click(function () {
+
+				$(this).toggleClass('clicked')
+
+			})
+
+		})
+
+	</script>
+</body>
+</html>
