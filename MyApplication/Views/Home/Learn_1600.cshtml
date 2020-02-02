@@ -10,9 +10,12 @@
 
 	<style>
 		div.card {
-			z-index: 0;
 			opacity: 0.8;
-			transition: all 0.2s ease-in-out 0s;
+
+			transition-delay: 0s;
+			transition-duration: 200ms;
+			transition-property: opacity, transform;
+			transition-timing-function: ease-in-out;
 		}
 
 			div.card:hover {

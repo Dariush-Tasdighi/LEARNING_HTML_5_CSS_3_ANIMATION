@@ -260,7 +260,7 @@
     <Content Include="Views\Home\Learn_1400.cshtml" />
     <Content Include="Views\Home\Learn_1500.cshtml" />
     <Content Include="Views\Home\Learn_1600.cshtml" />
-    <None Include="Views\Home\Learn_1700.cshtml.BAK" />
+    <Content Include="Views\Home\Learn_1700.cshtml" />
     <Content Include="Views\Home\Learn_1800.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
