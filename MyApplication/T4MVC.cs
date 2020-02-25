@@ -238,6 +238,14 @@ namespace Links
         public static readonly string bootstrap_css_map = Url("bootstrap.css.map");
         public static readonly string bootstrap_min_css = Url("bootstrap.min.css");
         public static readonly string bootstrap_min_css_map = Url("bootstrap.min.css.map");
+        [GeneratedCode("T4MVC", "2.0"), DebuggerNonUserCode]
+        public static class Images {
+            public const string UrlPath = "~/Content/Images";
+            public static string Url() { return T4MVCHelpers.ProcessVirtualPath(UrlPath); }
+            public static string Url(string fileName) { return T4MVCHelpers.ProcessVirtualPath(UrlPath + "/" + fileName); }
+            public static readonly string Dog_jpg = Url("Dog.jpg");
+        }
+    
         public static readonly string Site_css = T4MVCHelpers.IsProduction() && T4Extensions.FileExists(UrlPath + "/Site.min.css") ? Url("Site.min.css") : Url("Site.css");
     }
 
@@ -375,6 +383,12 @@ namespace Links
         }
         public static partial class Content 
         {
+            public static partial class Images 
+            {
+                public static class Assets
+                {
+                }
+            }
             public static class Assets
             {
                 public static readonly string bootstrap_grid_css = T4MVCHelpers.ProcessAssetPath("~/Content/bootstrap-grid.css");

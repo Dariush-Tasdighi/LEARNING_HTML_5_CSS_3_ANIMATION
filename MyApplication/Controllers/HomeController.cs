@@ -121,17 +121,5 @@ namespace MyApplication.Controllers
 		{
 			return View();
 		}
-
-		[System.Web.Mvc.HttpGet]
-		public virtual System.Web.Mvc.ViewResult Learn_1900()
-		{
-			return View();
-		}
-
-		[System.Web.Mvc.HttpGet]
-		public virtual System.Web.Mvc.ViewResult Learn_2000()
-		{
-			return View();
-		}
 	}
 }

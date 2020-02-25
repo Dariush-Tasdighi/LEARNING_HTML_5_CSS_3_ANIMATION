@@ -73,12 +73,48 @@ namespace MyApplication.Controllers
         public class ActionNamesClass
         {
             public readonly string Index = "Index";
+            public readonly string Learn_0100 = "Learn_0100";
+            public readonly string Learn_0200 = "Learn_0200";
+            public readonly string Learn_0300 = "Learn_0300";
+            public readonly string Learn_0400 = "Learn_0400";
+            public readonly string Learn_0500 = "Learn_0500";
+            public readonly string Learn_0600 = "Learn_0600";
+            public readonly string Learn_0700 = "Learn_0700";
+            public readonly string Learn_0800 = "Learn_0800";
+            public readonly string Learn_0900 = "Learn_0900";
+            public readonly string Learn_1000 = "Learn_1000";
+            public readonly string Learn_1100 = "Learn_1100";
+            public readonly string Learn_1200 = "Learn_1200";
+            public readonly string Learn_1300 = "Learn_1300";
+            public readonly string Learn_1400 = "Learn_1400";
+            public readonly string Learn_1500 = "Learn_1500";
+            public readonly string Learn_1600 = "Learn_1600";
+            public readonly string Learn_1700 = "Learn_1700";
+            public readonly string Learn_1800 = "Learn_1800";
         }
 
         [GeneratedCode("T4MVC", "2.0"), DebuggerNonUserCode]
         public class ActionNameConstants
         {
             public const string Index = "Index";
+            public const string Learn_0100 = "Learn_0100";
+            public const string Learn_0200 = "Learn_0200";
+            public const string Learn_0300 = "Learn_0300";
+            public const string Learn_0400 = "Learn_0400";
+            public const string Learn_0500 = "Learn_0500";
+            public const string Learn_0600 = "Learn_0600";
+            public const string Learn_0700 = "Learn_0700";
+            public const string Learn_0800 = "Learn_0800";
+            public const string Learn_0900 = "Learn_0900";
+            public const string Learn_1000 = "Learn_1000";
+            public const string Learn_1100 = "Learn_1100";
+            public const string Learn_1200 = "Learn_1200";
+            public const string Learn_1300 = "Learn_1300";
+            public const string Learn_1400 = "Learn_1400";
+            public const string Learn_1500 = "Learn_1500";
+            public const string Learn_1600 = "Learn_1600";
+            public const string Learn_1700 = "Learn_1700";
+            public const string Learn_1800 = "Learn_1800";
         }
 
 
@@ -93,8 +129,44 @@ namespace MyApplication.Controllers
             public class _ViewNamesClass
             {
                 public readonly string Index = "Index";
+                public readonly string Learn_0100 = "Learn_0100";
+                public readonly string Learn_0200 = "Learn_0200";
+                public readonly string Learn_0300 = "Learn_0300";
+                public readonly string Learn_0400 = "Learn_0400";
+                public readonly string Learn_0500 = "Learn_0500";
+                public readonly string Learn_0600 = "Learn_0600";
+                public readonly string Learn_0700 = "Learn_0700";
+                public readonly string Learn_0800 = "Learn_0800";
+                public readonly string Learn_0900 = "Learn_0900";
+                public readonly string Learn_1000 = "Learn_1000";
+                public readonly string Learn_1100 = "Learn_1100";
+                public readonly string Learn_1200 = "Learn_1200";
+                public readonly string Learn_1300 = "Learn_1300";
+                public readonly string Learn_1400 = "Learn_1400";
+                public readonly string Learn_1500 = "Learn_1500";
+                public readonly string Learn_1600 = "Learn_1600";
+                public readonly string Learn_1700 = "Learn_1700";
+                public readonly string Learn_1800 = "Learn_1800";
             }
             public readonly string Index = "~/Views/Home/Index.cshtml";
+            public readonly string Learn_0100 = "~/Views/Home/Learn_0100.cshtml";
+            public readonly string Learn_0200 = "~/Views/Home/Learn_0200.cshtml";
+            public readonly string Learn_0300 = "~/Views/Home/Learn_0300.cshtml";
+            public readonly string Learn_0400 = "~/Views/Home/Learn_0400.cshtml";
+            public readonly string Learn_0500 = "~/Views/Home/Learn_0500.cshtml";
+            public readonly string Learn_0600 = "~/Views/Home/Learn_0600.cshtml";
+            public readonly string Learn_0700 = "~/Views/Home/Learn_0700.cshtml";
+            public readonly string Learn_0800 = "~/Views/Home/Learn_0800.cshtml";
+            public readonly string Learn_0900 = "~/Views/Home/Learn_0900.cshtml";
+            public readonly string Learn_1000 = "~/Views/Home/Learn_1000.cshtml";
+            public readonly string Learn_1100 = "~/Views/Home/Learn_1100.cshtml";
+            public readonly string Learn_1200 = "~/Views/Home/Learn_1200.cshtml";
+            public readonly string Learn_1300 = "~/Views/Home/Learn_1300.cshtml";
+            public readonly string Learn_1400 = "~/Views/Home/Learn_1400.cshtml";
+            public readonly string Learn_1500 = "~/Views/Home/Learn_1500.cshtml";
+            public readonly string Learn_1600 = "~/Views/Home/Learn_1600.cshtml";
+            public readonly string Learn_1700 = "~/Views/Home/Learn_1700.cshtml";
+            public readonly string Learn_1800 = "~/Views/Home/Learn_1800.cshtml";
         }
     }
 
@@ -111,6 +183,204 @@ namespace MyApplication.Controllers
         {
             var callInfo = new T4MVC_System_Web_Mvc_ViewResult(Area, Name, ActionNames.Index);
             IndexOverride(callInfo);
+            return callInfo;
+        }
+
+        [NonAction]
+        partial void Learn_0100Override(T4MVC_System_Web_Mvc_ViewResult callInfo);
+
+        [NonAction]
+        public override System.Web.Mvc.ViewResult Learn_0100()
+        {
+            var callInfo = new T4MVC_System_Web_Mvc_ViewResult(Area, Name, ActionNames.Learn_0100);
+            Learn_0100Override(callInfo);
+            return callInfo;
+        }
+
+        [NonAction]
+        partial void Learn_0200Override(T4MVC_System_Web_Mvc_ViewResult callInfo);
+
+        [NonAction]
+        public override System.Web.Mvc.ViewResult Learn_0200()
+        {
+            var callInfo = new T4MVC_System_Web_Mvc_ViewResult(Area, Name, ActionNames.Learn_0200);
+            Learn_0200Override(callInfo);
+            return callInfo;
+        }
+
+        [NonAction]
+        partial void Learn_0300Override(T4MVC_System_Web_Mvc_ViewResult callInfo);
+
+        [NonAction]
+        public override System.Web.Mvc.ViewResult Learn_0300()
+        {
+            var callInfo = new T4MVC_System_Web_Mvc_ViewResult(Area, Name, ActionNames.Learn_0300);
+            Learn_0300Override(callInfo);
+            return callInfo;
+        }
+
+        [NonAction]
+        partial void Learn_0400Override(T4MVC_System_Web_Mvc_ViewResult callInfo);
+
+        [NonAction]
+        public override System.Web.Mvc.ViewResult Learn_0400()
+        {
+            var callInfo = new T4MVC_System_Web_Mvc_ViewResult(Area, Name, ActionNames.Learn_0400);
+            Learn_0400Override(callInfo);
+            return callInfo;
+        }
+
+        [NonAction]
+        partial void Learn_0500Override(T4MVC_System_Web_Mvc_ViewResult callInfo);
+
+        [NonAction]
+        public override System.Web.Mvc.ViewResult Learn_0500()
+        {
+            var callInfo = new T4MVC_System_Web_Mvc_ViewResult(Area, Name, ActionNames.Learn_0500);
+            Learn_0500Override(callInfo);
+            return callInfo;
+        }
+
+        [NonAction]
+        partial void Learn_0600Override(T4MVC_System_Web_Mvc_ViewResult callInfo);
+
+        [NonAction]
+        public override System.Web.Mvc.ViewResult Learn_0600()
+        {
+            var callInfo = new T4MVC_System_Web_Mvc_ViewResult(Area, Name, ActionNames.Learn_0600);
+            Learn_0600Override(callInfo);
+            return callInfo;
+        }
+
+        [NonAction]
+        partial void Learn_0700Override(T4MVC_System_Web_Mvc_ViewResult callInfo);
+
+        [NonAction]
+        public override System.Web.Mvc.ViewResult Learn_0700()
+        {
+            var callInfo = new T4MVC_System_Web_Mvc_ViewResult(Area, Name, ActionNames.Learn_0700);
+            Learn_0700Override(callInfo);
+            return callInfo;
+        }
+
+        [NonAction]
+        partial void Learn_0800Override(T4MVC_System_Web_Mvc_ViewResult callInfo);
+
+        [NonAction]
+        public override System.Web.Mvc.ViewResult Learn_0800()
+        {
+            var callInfo = new T4MVC_System_Web_Mvc_ViewResult(Area, Name, ActionNames.Learn_0800);
+            Learn_0800Override(callInfo);
+            return callInfo;
+        }
+
+        [NonAction]
+        partial void Learn_0900Override(T4MVC_System_Web_Mvc_ViewResult callInfo);
+
+        [NonAction]
+        public override System.Web.Mvc.ViewResult Learn_0900()
+        {
+            var callInfo = new T4MVC_System_Web_Mvc_ViewResult(Area, Name, ActionNames.Learn_0900);
+            Learn_0900Override(callInfo);
+            return callInfo;
+        }
+
+        [NonAction]
+        partial void Learn_1000Override(T4MVC_System_Web_Mvc_ViewResult callInfo);
+
+        [NonAction]
+        public override System.Web.Mvc.ViewResult Learn_1000()
+        {
+            var callInfo = new T4MVC_System_Web_Mvc_ViewResult(Area, Name, ActionNames.Learn_1000);
+            Learn_1000Override(callInfo);
+            return callInfo;
+        }
+
+        [NonAction]
+        partial void Learn_1100Override(T4MVC_System_Web_Mvc_ViewResult callInfo);
+
+        [NonAction]
+        public override System.Web.Mvc.ViewResult Learn_1100()
+        {
+            var callInfo = new T4MVC_System_Web_Mvc_ViewResult(Area, Name, ActionNames.Learn_1100);
+            Learn_1100Override(callInfo);
+            return callInfo;
+        }
+
+        [NonAction]
+        partial void Learn_1200Override(T4MVC_System_Web_Mvc_ViewResult callInfo);
+
+        [NonAction]
+        public override System.Web.Mvc.ViewResult Learn_1200()
+        {
+            var callInfo = new T4MVC_System_Web_Mvc_ViewResult(Area, Name, ActionNames.Learn_1200);
+            Learn_1200Override(callInfo);
+            return callInfo;
+        }
+
+        [NonAction]
+        partial void Learn_1300Override(T4MVC_System_Web_Mvc_ViewResult callInfo);
+
+        [NonAction]
+        public override System.Web.Mvc.ViewResult Learn_1300()
+        {
+            var callInfo = new T4MVC_System_Web_Mvc_ViewResult(Area, Name, ActionNames.Learn_1300);
+            Learn_1300Override(callInfo);
+            return callInfo;
+        }
+
+        [NonAction]
+        partial void Learn_1400Override(T4MVC_System_Web_Mvc_ViewResult callInfo);
+
+        [NonAction]
+        public override System.Web.Mvc.ViewResult Learn_1400()
+        {
+            var callInfo = new T4MVC_System_Web_Mvc_ViewResult(Area, Name, ActionNames.Learn_1400);
+            Learn_1400Override(callInfo);
+            return callInfo;
+        }
+
+        [NonAction]
+        partial void Learn_1500Override(T4MVC_System_Web_Mvc_ViewResult callInfo);
+
+        [NonAction]
+        public override System.Web.Mvc.ViewResult Learn_1500()
+        {
+            var callInfo = new T4MVC_System_Web_Mvc_ViewResult(Area, Name, ActionNames.Learn_1500);
+            Learn_1500Override(callInfo);
+            return callInfo;
+        }
+
+        [NonAction]
+        partial void Learn_1600Override(T4MVC_System_Web_Mvc_ViewResult callInfo);
+
+        [NonAction]
+        public override System.Web.Mvc.ViewResult Learn_1600()
+        {
+            var callInfo = new T4MVC_System_Web_Mvc_ViewResult(Area, Name, ActionNames.Learn_1600);
+            Learn_1600Override(callInfo);
+            return callInfo;
+        }
+
+        [NonAction]
+        partial void Learn_1700Override(T4MVC_System_Web_Mvc_ViewResult callInfo);
+
+        [NonAction]
+        public override System.Web.Mvc.ViewResult Learn_1700()
+        {
+            var callInfo = new T4MVC_System_Web_Mvc_ViewResult(Area, Name, ActionNames.Learn_1700);
+            Learn_1700Override(callInfo);
+            return callInfo;
+        }
+
+        [NonAction]
+        partial void Learn_1800Override(T4MVC_System_Web_Mvc_ViewResult callInfo);
+
+        [NonAction]
+        public override System.Web.Mvc.ViewResult Learn_1800()
+        {
+            var callInfo = new T4MVC_System_Web_Mvc_ViewResult(Area, Name, ActionNames.Learn_1800);
+            Learn_1800Override(callInfo);
             return callInfo;
         }
 
